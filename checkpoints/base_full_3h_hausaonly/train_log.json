@@ -1,0 +1,44 @@
+{
+  "args": {
+    "run_name": "base_full_3h_hausaonly",
+    "model": "openai/whisper-base",
+    "hours": 3.0,
+    "accents": "hausa",
+    "lora": false,
+    "lora_r": 32,
+    "steps": 300,
+    "batch_size": 8,
+    "grad_accum": 2,
+    "lr": 1e-05,
+    "eval_every": 100,
+    "seed": 0,
+    "grad_ckpt": false
+  },
+  "train_hours": 2.999544765684051,
+  "train_clips": 1041,
+  "trainable_params": 72593920,
+  "total_params": 72593920,
+  "history": [
+    {
+      "step": 0,
+      "dev_loss": 1.7529919664065043
+    },
+    {
+      "step": 100,
+      "train_loss": 1.3116540178656577,
+      "dev_loss": 1.0337293724219003
+    },
+    {
+      "step": 200,
+      "train_loss": 0.7334352253377437,
+      "dev_loss": 0.9901799360911051
+    },
+    {
+      "step": 300,
+      "train_loss": 0.5357292915135622,
+      "dev_loss": 0.9891663610935211
+    }
+  ],
+  "best_dev_loss": 0.9891663610935211,
+  "minutes": 9.022013668219248
+}

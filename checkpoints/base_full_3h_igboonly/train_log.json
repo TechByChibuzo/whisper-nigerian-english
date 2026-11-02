@@ -1,0 +1,44 @@
+{
+  "args": {
+    "run_name": "base_full_3h_igboonly",
+    "model": "openai/whisper-base",
+    "hours": 3.0,
+    "accents": "igbo",
+    "lora": false,
+    "lora_r": 32,
+    "steps": 300,
+    "batch_size": 8,
+    "grad_accum": 2,
+    "lr": 1e-05,
+    "eval_every": 100,
+    "seed": 0,
+    "grad_ckpt": false
+  },
+  "train_hours": 2.997921000251953,
+  "train_clips": 1088,
+  "trainable_params": 72593920,
+  "total_params": 72593920,
+  "history": [
+    {
+      "step": 0,
+      "dev_loss": 1.7529919664065043
+    },
+    {
+      "step": 100,
+      "train_loss": 1.2663593831658364,
+      "dev_loss": 1.0197668115297953
+    },
+    {
+      "step": 200,
+      "train_loss": 0.6905721887946129,
+      "dev_loss": 0.9854228595892588
+    },
+    {
+      "step": 300,
+      "train_loss": 0.512356316447258,
+      "dev_loss": 0.98405020236969
+    }
+  ],
+  "best_dev_loss": 0.98405020236969,
+  "minutes": 9.805222713947296
+}

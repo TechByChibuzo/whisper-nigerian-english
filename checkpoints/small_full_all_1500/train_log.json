@@ -1,0 +1,104 @@
+{
+  "args": {
+    "run_name": "small_full_all_1500",
+    "model": "openai/whisper-small",
+    "hours": null,
+    "accents": null,
+    "lora": false,
+    "lora_r": 32,
+    "steps": 1500,
+    "batch_size": 8,
+    "grad_accum": 2,
+    "lr": 1e-05,
+    "eval_every": 100,
+    "seed": 0,
+    "grad_ckpt": true
+  },
+  "train_hours": 13.194667378432856,
+  "train_clips": 4772,
+  "trainable_params": 241734912,
+  "total_params": 241734912,
+  "history": [
+    {
+      "step": 0,
+      "dev_loss": 1.4601538141568502
+    },
+    {
+      "step": 100,
+      "train_loss": 1.1616199681162833,
+      "dev_loss": 0.8067641466856003
+    },
+    {
+      "step": 200,
+      "train_loss": 0.7594681125879288,
+      "dev_loss": 0.7086797744035721
+    },
+    {
+      "step": 300,
+      "train_loss": 0.6760268099606037,
+      "dev_loss": 0.6558742453654607
+    },
+    {
+      "step": 400,
+      "train_loss": 0.4267151980474591,
+      "dev_loss": 0.6290139516194662
+    },
+    {
+      "step": 500,
+      "train_loss": 0.4349936280399561,
+      "dev_loss": 0.6204794203241666
+    },
+    {
+      "step": 600,
+      "train_loss": 0.39667697563767434,
+      "dev_loss": 0.5967662617564201
+    },
+    {
+      "step": 700,
+      "train_loss": 0.22663744837045668,
+      "dev_loss": 0.6032230521241824
+    },
+    {
+      "step": 800,
+      "train_loss": 0.22825928676873444,
+      "dev_loss": 0.6003910914063454
+    },
+    {
+      "step": 900,
+      "train_loss": 0.22447118083015083,
+      "dev_loss": 0.5939924001693726
+    },
+    {
+      "step": 1000,
+      "train_loss": 0.12761485752649604,
+      "dev_loss": 0.6164161557952563
+    },
+    {
+      "step": 1100,
+      "train_loss": 0.1299974806047976,
+      "dev_loss": 0.6139907126625379
+    },
+    {
+      "step": 1200,
+      "train_loss": 0.11466905305162073,
+      "dev_loss": 0.6180470233162244
+    },
+    {
+      "step": 1300,
+      "train_loss": 0.07835705773904919,
+      "dev_loss": 0.6314118524392446
+    },
+    {
+      "step": 1400,
+      "train_loss": 0.07158059763722122,
+      "dev_loss": 0.6312129959464073
+    },
+    {
+      "step": 1500,
+      "train_loss": 0.07244355695322156,
+      "dev_loss": 0.6321237410108248
+    }
+  ],
+  "best_dev_loss": 0.5939924001693726,
+  "minutes": 48.06286929448446
+}

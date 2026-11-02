@@ -1,0 +1,44 @@
+{
+  "args": {
+    "run_name": "base_full_3h_yorubaonly",
+    "model": "openai/whisper-base",
+    "hours": 3.0,
+    "accents": "yoruba",
+    "lora": false,
+    "lora_r": 32,
+    "steps": 300,
+    "batch_size": 8,
+    "grad_accum": 2,
+    "lr": 1e-05,
+    "eval_every": 100,
+    "seed": 0,
+    "grad_ckpt": false
+  },
+  "train_hours": 2.9994144620811287,
+  "train_clips": 1100,
+  "trainable_params": 72593920,
+  "total_params": 72593920,
+  "history": [
+    {
+      "step": 0,
+      "dev_loss": 1.7529919664065043
+    },
+    {
+      "step": 100,
+      "train_loss": 1.1135170821845533,
+      "dev_loss": 1.0085843483606973
+    },
+    {
+      "step": 200,
+      "train_loss": 0.6136750745773315,
+      "dev_loss": 0.9643148819605509
+    },
+    {
+      "step": 300,
+      "train_loss": 0.43136944383382797,
+      "dev_loss": 0.9602462271849315
+    }
+  ],
+  "best_dev_loss": 0.9602462271849315,
+  "minutes": 10.017386317253113
+}

@@ -1,0 +1,57 @@
+{
+  "args": {
+    "run_name": "base_full_3h",
+    "model": "openai/whisper-base",
+    "hours": 3.0,
+    "lora": false,
+    "lora_r": 32,
+    "steps": 600,
+    "batch_size": 8,
+    "grad_accum": 2,
+    "lr": 1e-05,
+    "eval_every": 100,
+    "seed": 0
+  },
+  "train_hours": 2.992311615016377,
+  "train_clips": 1078,
+  "trainable_params": 72593920,
+  "total_params": 72593920,
+  "history": [
+    {
+      "step": 0,
+      "dev_loss": 1.7529919664065043
+    },
+    {
+      "step": 100,
+      "train_loss": 1.3350589014589787,
+      "dev_loss": 1.0212773323059081
+    },
+    {
+      "step": 200,
+      "train_loss": 0.7288070504367351,
+      "dev_loss": 0.9666747391223908
+    },
+    {
+      "step": 300,
+      "train_loss": 0.42354379057884217,
+      "dev_loss": 0.9719736814498902
+    },
+    {
+      "step": 400,
+      "train_loss": 0.28986621588468553,
+      "dev_loss": 0.9858348965644836
+    },
+    {
+      "step": 500,
+      "train_loss": 0.1963455594703555,
+      "dev_loss": 1.0088436722755432
+    },
+    {
+      "step": 600,
+      "train_loss": 0.16274574138224124,
+      "dev_loss": 1.0135633726914723
+    }
+  ],
+  "best_dev_loss": 0.9666747391223908,
+  "minutes": 17.478883266448975
+}

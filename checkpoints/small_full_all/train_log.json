@@ -1,0 +1,58 @@
+{
+  "args": {
+    "run_name": "small_full_all",
+    "model": "openai/whisper-small",
+    "hours": null,
+    "lora": false,
+    "lora_r": 32,
+    "steps": 600,
+    "batch_size": 8,
+    "grad_accum": 2,
+    "lr": 1e-05,
+    "eval_every": 100,
+    "seed": 0,
+    "grad_ckpt": true
+  },
+  "train_hours": 13.194667378432856,
+  "train_clips": 4772,
+  "trainable_params": 241734912,
+  "total_params": 241734912,
+  "history": [
+    {
+      "step": 0,
+      "dev_loss": 1.4601575573285421
+    },
+    {
+      "step": 100,
+      "train_loss": 1.0350159299373627,
+      "dev_loss": 0.759287049372991
+    },
+    {
+      "step": 200,
+      "train_loss": 0.7226551912724972,
+      "dev_loss": 0.6905648549397786
+    },
+    {
+      "step": 300,
+      "train_loss": 0.6631384766101838,
+      "dev_loss": 0.6507645010948181
+    },
+    {
+      "step": 400,
+      "train_loss": 0.41689843259751797,
+      "dev_loss": 0.6309725155433019
+    },
+    {
+      "step": 500,
+      "train_loss": 0.4202395733445883,
+      "dev_loss": 0.6252923826376597
+    },
+    {
+      "step": 600,
+      "train_loss": 0.39289538107812405,
+      "dev_loss": 0.6176749179760616
+    }
+  ],
+  "best_dev_loss": 0.6176749179760616,
+  "minutes": 78.33550350268682
+}

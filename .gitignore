@@ -1,0 +1,11 @@
+.venv/
+venv/
+__pycache__/
+.DS_Store
+data/
+logs/
+# keep only the training logs, not model weights
+checkpoints/**
+!checkpoints/*/
+!checkpoints/*/train_log.json
+*.tar.gz
